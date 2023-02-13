@@ -1,0 +1,757 @@
+Script started on 2023-02-12 17:45:10-0600
+]0;dmr019@turing: ~/CSCE_4523_2[01;32mdmr019@turing[00m:[01;34m~/CSCE_4523_2[00m$ ls -lt
+total 40
+-rw-r----- 1 dmr019 dmr019     0 Feb 12 17:45 typescript
+-rw-rw-r-- 1 dmr019 dmr019  8421 Feb 12 17:43 Database.py
+-rw-rw-r-- 1 dmr019 dmr019  3780 Feb 12 17:12 TestDB.py
+-rw-rw-r-- 1 dmr019 dmr019 21691 Feb 12 17:12 Fortune500.csv
+]0;dmr019@turing: ~/CSCE_4523_2[01;32mdmr019@turing[00m:[01;34m~/CSCE_4523_2[00m$ python3 TestDB.py 
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 1
+Enter csv filename: Fortune500
+created Fortune500.data & Fortune500.config
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 9
+]0;dmr019@turing: ~/CSCE_4523_2[01;32mdmr019@turing[00m:[01;34m~/CSCE_4523_2[00m$ ls-[K -lt
+total 108
+-rw-r----- 1 dmr019 dmr019   261 Feb 12 17:45 Fortune500.config
+-rw-r----- 1 dmr019 dmr019 58000 Feb 12 17:45 Fortune500.data
+drwxr-x--- 2 dmr019 dmr019  4096 Feb 12 17:45 [0m[01;34m__pycache__[0m
+-rw-r----- 1 dmr019 dmr019     0 Feb 12 17:45 typescript
+-rw-rw-r-- 1 dmr019 dmr019  8421 Feb 12 17:43 Database.py
+-rw-rw-r-- 1 dmr019 dmr019  3780 Feb 12 17:12 TestDB.py
+-rw-rw-r-- 1 dmr019 dmr019 21691 Feb 12 17:12 Fortune500.csv
+]0;dmr019@turing: ~/CSCE_4523_2[01;32mdmr019@turing[00m:[01;34m~/CSCE_4523_2[00m$ ls -ltpython3 TestDB.py 
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: WALMAT RT
+Open the database first
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 2
+Enter filename: Fortune500
+opened database
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 3
+closed database
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 2
+Enter filename: Fortune500.data
+opened database
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: FIRST AMERICAN FINANCIAL
+
+Record 187
+Name: FIRST AMERICAN FINANCIAL
+Rank: 464
+City: SANTA ANA
+State: CA
+Zip: 92707
+Employees: 19531
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: INTEL
+
+Record 243
+Name: INTEL
+Rank: 47
+City: SANTA CLARA
+State: CA
+Zip: 95054
+Employees: 106000
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: TES XAS INSTRUMENTS
+
+Record 434
+Name: TEXAS INSTRUMENTS
+Rank: 206
+City: DALLAS
+State: TX
+Zip: 75243
+Employees: 29865
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: CONSOLIDATED EDISON
+
+Record 124
+Name: CONSOLIDATED EDISON
+Rank: 234
+City: NEW YORK
+State: NY
+Zip: 10003
+Employees: 14960
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: ABC SYSTEMS
+No such company
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: CONSOLIDATED EDISON
+
+Record 124
+Name: CONSOLIDATED EDISON
+Rank: 234
+City: NEW YORK
+State: NY
+Zip: 10003
+Employees: 14960
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 5
+Enter value: 250
+Enter key value: CONSOLIDATED EDISON
+Enter fieldname: rank
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 5
+Enter value: NewYork
+Enter key value: city
+Enter fieldname: city
+error: key value does not exist
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 5
+Enter value: NewYork
+Enter key value: CONSOLIDATED EDISON
+Enter fieldname: city
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: CONSL OLIDATED EDISON
+
+Record 124
+Name: CONSOLIDATED EDISON
+Rank: 250
+City: NewYork
+State: NY
+Zip: 10003
+Employees: 14960
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: R.R. DONNELLEY & SONS
+
+Record 383
+Name: R.R. DONNELLEY & SONS
+Rank: 388
+City: CHICAGO
+State: IL
+Zip: 60606
+Employees: 44360
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 5
+Enter value: R.R. DONNELLEY
+Enter key value: R>R>   .. r R. DONNELLEY & SONS
+Enter fieldname: name
+You cannot edit the primary key
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: CONSOLIDATED EDISON
+
+Record 124
+Name: CONSOLIDATED EDISON
+Rank: 250
+City: NewYork
+State: NY
+Zip: 10003
+Employees: 14960
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 8
+Enter key: PHILLIPS 66
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: PHILLIPS 66
+error: that record is deleted
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 8
+Enter key: J.B. HUNT TRANSPOT RT SERVICES
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: J.B. HUNT TRANSPORT SERVICES
+error: that record is deleted
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 8
+Enter key: ACTIVISION BLIZZARD
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: ACTIVISION BLIZZAD RD
+error: that record is deleted
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 6
+
+Record 1:
+Name: 3M
+Rank: 94
+City: MAPLEWOOD
+State: MN
+Zip: 55144
+Employees: 91584
+
+Record 2:
+Name: A-MARK PRECIOUS METALS
+Rank: 395
+City: PHILADELPHIA
+State: PA
+Zip: 19107
+Employees: 83000
+
+Record 3:
+Name: ABBOTT LABORATORIES
+Rank: 135
+City: SANTA MONICA
+State: CA
+Zip: 90401
+Employees: 75000
+
+Record 4:
+Name: ABBVIE
+Rank: 111
+City: NORTH CHICAGO
+State: IL
+Zip: 60064
+Employees: 30000
+
+Record 5:
+Name: ABM INDUSTRIES
+Rank: 500
+City: NEW YORK
+State: NY
+Zip: 10176
+Employees: 110000
+
+Record 7:
+Name: ADOBE SYSTEMS
+Rank: 443
+City: MCLEAN
+State: VA
+Zip: 22102
+Employees: 15706
+
+Record 8:
+Name: ADP
+Rank: 240
+City: ROSELAND
+State: NJ
+Zip: 7068
+Employees: 57000
+
+Record 9:
+Name: ADVANCE AUTO PARTS
+Rank: 292
+City: ROANOKE
+State: VA
+Zip: 24012
+Employees: 57500
+
+Record 10:
+Name: AECOM
+Rank: 161
+City: LOS ANGELES
+State: CA
+Zip: 90067
+Employees: 87000
+
+Record 11:
+Name: AES
+Rank: 194
+City: ARLINGTON
+State: VA
+Zip: 22203
+Employees: 19000
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 7
+Enter name (string): HANDMADE GRAPHICS
+Enter rank (int): 501
+Enter city (string): MyCity
+Enter state (string): MyState
+Enter zip (int): 12345
+Enter employees (int): 100
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: Han  ANDMADE GRAPHICS
+
+Record 500
+Name: HANDMADE GRAPHICS
+Rank: 501
+City: MyCity
+State: MyState
+Zip: 12345
+Employees: 100
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: HANDMADE GRAPHICS
+
+Record 500
+Name: HANDMADE GRAPHICS
+Rank: 501
+City: MyCity
+State: MyState
+Zip: 12345
+Employees: 100
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: R.R. DONNELLEY & SONS
+
+Record 383
+Name: R.R. DONNELLEY & SONS
+Rank: 388
+City: CHICAGO
+State: IL
+Zip: 60606
+Employees: 44360
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 5
+Enter value: YourState
+Enter key value: HANDMADE GAPHICS      RAPHICS
+Enter fieldname: state
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 5
+Enter value: 510
+Enter key value: HANDMADE GRAPHICS
+Enter fieldname: rank
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: HANDMADE GRAPHICS
+
+Record 500
+Name: HANDMADE GRAPHICS
+Rank: 510
+City: MyCity
+State: YourState
+Zip: 12345
+Employees: 100
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 7
+Enter name (string): AMEICAN NATIONAL INSURANCE
+Enter rank (int): 695
+Enter city (string): lou   mario city
+Enter state (string): bowsert  world
+Enter zip (int): 70949
+Enter employees (int): 10000
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: AMEICAN NATIONAL INSURANCE
+
+Record 501
+Name: AMEICAN NATIONAL INSURANCE
+Rank: 695
+City: mario city
+State: bowser wor
+Zip: 70949
+Employees: 10000
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 8
+Enter key: AMEICAN NATIONAL INSURANCE
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: AMEICAN NATIONAL INSURANCE
+error: that record is deleted
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 3
+closed database
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 4
+Enter key: HOME DEPOT
+Open the database first
+
+1. Create new database
+2. Open database
+3. Close database
+4. Display record
+5. Update record
+6. Create report
+7. Add record
+8. Delete record
+9. Quit
+
+Enter your choice: 9
+]0;dmr019@turing: ~/CSCE_4523_2[01;32mdmr019@turing[00m:[01;34m~/CSCE_4523_2[00m$ exit
+exit
+
+Script done on 2023-02-12 18:02:23-0600
